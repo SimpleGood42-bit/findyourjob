@@ -1,10 +1,17 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 body {
   font-family: "Fira Sans", sans-serif;
   font-size: 16px;
   color: #111238;
   margin: 0;
 }
-
+.header {
+  background-color: #f2f3f6;
+}
 .menu {
   list-style: none;
   padding: 0;
@@ -21,6 +28,8 @@ body {
 }
 .button {
   text-decoration: none;
+  border: none;
+  font-size: 16px;
 }
 .button-link {
   color: #111238;
@@ -28,6 +37,13 @@ body {
   margin-right: 30px;
 }
 
+.button-text {
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.button-icon {
+  vertical-align: middle;
+}
 .button-primary {
   background: #1a75e8;
   border-radius: 5px;
@@ -36,4 +52,98 @@ body {
   padding-bottom: 15px;
   padding-right: 30px;
   color: #ffffff;
+}
+
+.hero-title {
+  font-size: 44px;
+  line-height: 53px;
+  margin-bottom: 15px;
+  margin-top: 43px;
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 25px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  padding: 10px;
+}
+
+.input {
+  border: none;
+  background-color: #ffffff;
+  flex-grow: 1;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 15px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.tags-group {
+  padding-left: 15px;
+  color: #b2b2b2;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.tag {
+  text-decoration: none;
+  color: #b2b2b2;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 1px solid #b2b2b2;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.section-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.card-icon {
+  fill: #111238;
+  transition: fill 0.2s;
+}
+
+.card {
+  text-decoration: none;
+  color: #111238;
+  background: #f2f3f6;
+  border-radius: 10px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 33px;
+  padding-right: 33px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.card:hover {
+  background: #1a75e8;
+  color: #ffffff;
+  fill: #ffffff;
+}
+.card:hover .card-icon {
+  fill: #ffffff;
+}
+
+.card-text {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 19px;
 }
