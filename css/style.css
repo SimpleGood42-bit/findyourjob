@@ -147,3 +147,115 @@ body {
   font-size: 16px;
   line-height: 19px;
 }
+
+.offer {
+  border: 1px solid #c5c9d5;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 30px;
+}
+
+.offer-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #f2f3f6;
+  background: #fff url("../img/offer-logo.png") no-repeat center / contain;
+  margin-right: 20px;
+}
+
+.offer-heading {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 10px;
+  margin-right: 45px;
+}
+
+.offer-place {
+  font-size: 14px;
+  line-height: 17px;
+  color: #111238;
+  opacity: 0.8;
+}
+
+.salary {
+  margin-right: 60px;
+  font-weight: bold;
+  color: #fff;
+  background: #1a75e8;
+  border-radius: 5px;
+  padding: 10px 25px;
+}
+
+.more {
+  text-decoration: none;
+  margin-right: 25px;
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1a75e8;
+}
+
+.subscribe {
+  background: #f2f3f6;
+}
+
+.subscribe-title {
+  font-size: 36px;
+  line-height: 43px;
+  margin-bottom: 15px;
+}
+
+.subscribe-text {
+  font-size: 18px;
+  line-height: 140%;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  max-width: 460px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer {
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+
+.footer-description,
+.footer-copyright {
+  font-size: 12px;
+  line-height: 140%;
+  color: #b2b2b2;
+}
+
+.footer-description {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.footer-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-list-link {
+  display: block;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #111238;
+  margin-bottom: 10px;
+}
