@@ -6,3 +6,4 @@
 - CSS
 - Bootstrap 5
 - svgsprit.es — генератор SVG-спрайтов
+- js
