@@ -9,6 +9,9 @@ body {
   color: #111238;
   margin: 0;
 }
+img {
+  max-width: 100%;
+}
 .header {
   background-color: #f2f3f6;
 }
@@ -90,7 +93,6 @@ body {
 }
 
 .tags-group {
-  padding-left: 15px;
   color: #b2b2b2;
   font-size: 14px;
   line-height: 17px;
@@ -169,7 +171,6 @@ body {
   font-size: 16px;
   line-height: 19px;
   margin-bottom: 10px;
-  margin-right: 45px;
 }
 
 .offer-place {
@@ -181,6 +182,7 @@ body {
 
 .salary {
   margin-right: 60px;
+  margin-left: 45px;
   font-weight: bold;
   color: #fff;
   background: #1a75e8;
@@ -258,4 +260,100 @@ body {
   text-decoration: none;
   color: #111238;
   margin-bottom: 10px;
+}
+
+.input-subscribe {
+  margin-bottom: 25px;
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(15, 17, 56, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(209, 209, 209, 0.1);
+  padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  .salary {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .more {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .more {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .tag-label {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .offer-title {
+    text-align: center;
+  }
+  .offer-image {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .tag {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .section-title,
+  .hero {
+    text-align: center;
+  }
+  .navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transform: translateX(+100%);
+    transition: transform 0.2s;
+  }
+
+  .is-open {
+    transform: translateX(0);
+  }
+
+  .menu-item:not(:last-child) {
+    margin-right: 0;
+  }
+  .button-link {
+    margin-right: 0;
+  }
+  .close-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    text-align: center;
+  }
+  .card {
+    max-width: 166px;
+    margin: auto;
+  }
+
+  .hero-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .hero-text {
+    font-size: 16px;
+    line-height: 140%;
+  }
 }
